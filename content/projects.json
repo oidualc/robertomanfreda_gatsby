@@ -1,0 +1,32 @@
+[
+  {
+    "title": "RLOGGER",
+    "text": "RLogger is a logging library that allows you to easily obfuscate and manipulate sensitive data.",
+    "link": "https://github.com/robertomanfreda/rlogger"
+  },
+  {
+    "title": "RMORPHING",
+    "text": "A Python based repository - facial recognition and morphing with python-opencv.",
+    "link": "https://github.com/robertomanfreda/rmorphing"
+  },
+  {
+    "title": "SPROXY",
+    "text": "Sproxy is a real proxy, it captures the requests and forwards them to the requested url.",
+    "link": "https://github.com/robertomanfreda/sproxy"
+  },
+  {
+    "title": "DEVELOPER CHEATSHEET",
+    "text": "Just another useful set of commands for 🐧 developers.",
+    "link": "https://github.com/robertomanfreda/developer-cheatsheet"
+  },
+  {
+    "title": "SQLINJECTOR",
+    "text": "A Mozilla Firefox extension to inject sql payloads on every \"input\" tags.",
+    "link": "https://github.com/robertomanfreda/sqlinjector"
+  },
+  {
+    "title": "ABUSING SUID",
+    "text": "A tool to detect vulnerable SUIDs on any machine.",
+    "link": "https://github.com/robertomanfreda/abusing-suid"
+  }
+]

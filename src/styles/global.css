@@ -1,0 +1,11 @@
+@import url("./typography.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  cursor: url('/puntatore.png'), auto;
+}

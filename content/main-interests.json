@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Java",
+    "img": "java.png"
+  },
+  {
+    "title": "Spring Boot",
+    "img": "spring-boot.png"
+  },
+  {
+    "title": "Android",
+    "img": "android.png"
+  },
+  {
+    "title": "BASH",
+    "img": "bash.png"
+  },
+  {
+    "title": "Linux",
+    "img": "linux.png"
+  },
+  {
+    "title": "Docker",
+    "img": "docker.png"
+  },
+  {
+    "title": "Kubernetes",
+    "img": "kubernetes.png"
+  },
+  {
+    "title": "Jenkins",
+    "img": "jenkins.png"
+  }
+]
