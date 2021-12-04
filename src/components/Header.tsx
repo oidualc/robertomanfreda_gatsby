@@ -12,7 +12,7 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [window.scrollY]);
+  }, []);
 
   return (
     <header className="z-10 fixed top-0 w-full bg-black bg-opacity-90">
