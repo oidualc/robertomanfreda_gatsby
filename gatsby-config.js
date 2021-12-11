@@ -5,6 +5,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-postcss",
+    "gatsby-plugin-pnpm",
     { resolve: "gatsby-plugin-anchor-links", options: { offset: -100 } },
   ],
 };
