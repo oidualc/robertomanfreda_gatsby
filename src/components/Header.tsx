@@ -29,7 +29,7 @@ const Header = () => {
         </span>
 
         <nav
-          className={`absolute md:static top-12 md:top-auto bg-black w-full md:w-auto bg-opacity-90 flex flex-col md:flex-row transition md:transition-none transform md:transform-none origin-top duration-500 ${
+          className={`absolute md:static top-12 md:top-auto bg-black w-full md:w-auto bg-opacity-90 flex flex-col md:flex-row transition md:transition-none md:transform-none origin-top duration-500 ${
             !open ? "scale-y-0 opacity-0 md:opacity-100" : ""
           }`}
         >
