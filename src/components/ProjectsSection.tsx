@@ -11,7 +11,7 @@ const ProjectsSection = () => (
   >
     <div className="flex flex-wrap justify-center">
       {ProjectsData.map((project, index) => (
-        <div className="p-4 w-auto sm:w-1/2 lg:w-1/3" key={index}>
+        <div className="w-auto p-4 sm:w-1/2 lg:w-1/3" key={index}>
           <ServiceBox
             title={project.title}
             text={project.text}

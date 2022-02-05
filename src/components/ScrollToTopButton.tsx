@@ -15,8 +15,8 @@ const ScrollToTopButton = () => {
 
   return (
     <div
-      className={`fixed bottom-3 right-3 bg-green-hack rounded-full h-11 w-11 flex justify-center items-center transition duration-500 ${
-        !visible ? "opacity-0 scale-0" : ""
+      className={`fixed bottom-3 right-3 flex h-11 w-11 items-center justify-center rounded-full bg-green-hack transition duration-500 ${
+        !visible ? "scale-0 opacity-0" : ""
       }`}
       onClick={scrollToTop}
     >

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => (
-  <footer className="w-full text-center py-6 mt-auto">
+  <footer className="mt-auto w-full py-6 text-center">
     <p>
       © Copyright <span className="font-bold">Roberto Manfreda</span>. All
       Rights Reserved

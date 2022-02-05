@@ -8,11 +8,11 @@ type LayoutProps = {
 };
 
 const Layout = ({ children }: LayoutProps) => (
-  <div className="h-screen text-gray-100 flex flex-col">
+  <div className="flex h-screen flex-col text-gray-100">
     <Header />
     <main className="mt-24">{children}</main>
     <Footer />
-      <ScrollToTopButton />
+    <ScrollToTopButton />
   </div>
 );
 

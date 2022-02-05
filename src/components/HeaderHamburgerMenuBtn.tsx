@@ -8,7 +8,7 @@ type HamburgerMenuBtnProps = {
 const HamburgerMenuBtn = ({ open, onClick }: HamburgerMenuBtnProps) => {
   return (
     <button
-      className="relative text-white w-6 h-6 focus:outline-none"
+      className="relative h-6 w-6 text-white focus:outline-none"
       onClick={onClick}
     >
       <span

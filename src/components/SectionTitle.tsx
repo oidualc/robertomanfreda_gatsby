@@ -6,7 +6,7 @@ type SectionTitleProps = {
 
 const SectionTitle = ({ title }: SectionTitleProps) => (
   <div>
-    <p className="text-sm text-gray-400 font-medium tracking-widest after:w-32 after:inline-block after:bg-green-hack after:h-px after:align-middle after:mx-3">
+    <p className="text-sm font-medium tracking-widest text-gray-400 after:mx-3 after:inline-block after:h-px after:w-32 after:bg-green-hack after:align-middle">
       {title}
     </p>
   </div>

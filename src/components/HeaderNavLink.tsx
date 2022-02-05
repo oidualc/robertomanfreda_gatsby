@@ -10,9 +10,9 @@ const HeaderNavLink = ({ label, to }: NavLinkProps) => (
   <div className="group flex flex-col justify-center">
     <AnchorLink
       to={to}
-      className="md:px-2 lg:px-3 py-3 font-extrabold text-xl relative group-hover:text-green-hack"
+      className="relative py-3 text-xl font-extrabold group-hover:text-green-hack md:px-2 lg:px-3"
     >
-      <span className="absolute bottom-0 bg-green-hack w-9 h-[2px] text-green-hack transition-transform origin-left scale-x-0 group-hover:scale-x-100"></span>
+      <span className="absolute bottom-0 h-[2px] w-9 origin-left scale-x-0 bg-green-hack text-green-hack transition-transform group-hover:scale-x-100"></span>
       {label}
     </AnchorLink>
   </div>

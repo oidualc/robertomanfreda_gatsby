@@ -1,7 +1,11 @@
 import React, { useMemo, useState } from "react";
 import { LogoGithub, LogoLinkedin, LogoStackoverflow } from "react-ionicons";
 
-export const supportedPlatforms = ["linkedin", "github", "stackoverflow"] as const;
+export const supportedPlatforms = [
+  "linkedin",
+  "github",
+  "stackoverflow",
+] as const;
 
 type ContactLogoProps = {
   icon: typeof supportedPlatforms[number];

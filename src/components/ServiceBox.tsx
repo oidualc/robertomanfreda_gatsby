@@ -8,15 +8,15 @@ type ServiceBoxProps = {
 };
 
 const ServiceBox = ({ title, text, btn }: ServiceBoxProps) => (
-  <div className="h-96 flex flex-col items-center justify-between p-5 py-10 lg:py-5 xl:py-10 bg-gray-hack-900 hover:bg-gray-hack-800 transition duration-500 hover:scale-105">
+  <div className="flex h-96 flex-col items-center justify-between bg-gray-hack-900 p-5 py-10 transition duration-500 hover:scale-105 hover:bg-gray-hack-800 lg:py-5 xl:py-10">
     <div className="flex flex-col items-center">
       <ServiceResourceIcon />
       <div className="h-3" />
-      <h2 className="font-poppins font-extrabold text-2xl text-center">
+      <h2 className="text-center font-poppins text-2xl font-extrabold">
         {title}
       </h2>
       <div className="h-3" />
-      <p className="font-sans text-base text-center overflow-ellipsis">
+      <p className="overflow-ellipsis text-center font-sans text-base">
         {text}
       </p>
     </div>

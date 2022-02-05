@@ -12,7 +12,7 @@ The internet is an immense resource, one of the most complex human creations tha
 
 const AboutSection = () => (
   <Section id="about" title="ABOUT" subTitle="WHOAMI">
-    <p className="text-xl font-light whitespace-pre-line">{text}</p>
+    <p className="whitespace-pre-line text-xl font-light">{text}</p>
   </Section>
 );
 

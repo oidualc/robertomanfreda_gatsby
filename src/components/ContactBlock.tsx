@@ -7,9 +7,9 @@ type ContactBlockProps = {
 };
 
 const ContactBlock = ({ title, children, icon }: ContactBlockProps) => (
-  <div className="flex bg-gray-hack-900 py-5 hover:bg-gray-hack-800 transition duration-500 hover:scale-105">
-    <div className="flex-shrink-0 flex-grow-0 mx-5">
-      <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-hack-700 text-white text-center">
+  <div className="flex bg-gray-hack-900 py-5 transition duration-500 hover:scale-105 hover:bg-gray-hack-800">
+    <div className="mx-5 flex-shrink-0 flex-grow-0">
+      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-hack-700 text-center text-white">
         {icon}
       </div>
     </div>
